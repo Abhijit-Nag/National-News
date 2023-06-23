@@ -1,0 +1,125 @@
+.card {
+    width: 60%;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+
+
+}
+
+.cardBodyImg {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.author {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: kenia;
+    color: rgb(57, 50, 50);
+}
+
+h1 {
+    font-size: 16px;
+    color: rgb(74, 49, 3);
+    font-family: kalam;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+.time {
+    text-align: center;
+    position: absolute;
+    font-family: kalam;
+    right: 10px;
+}
+
+.cardDesc {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.cardHeading {
+    margin-bottom: 20px;
+}
+
+.cardWrapper {
+    padding-bottom: 10px;
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+}
+
+.cardTop {
+    display: flex;
+    align-items: center;
+}
+
+.cardInput {
+    width: 240px;
+    border: none;
+
+}
+
+.cardInput:focus {
+    outline: none;
+}
+
+.cardHr {
+    margin: 20px;
+}
+
+.cardButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardProfileImg {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.cardIcon {
+    font-size: 18px;
+    margin-right: 3px;
+
+}
+
+.cardOptions {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.cardOption {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.cardButton {
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 500;
+}

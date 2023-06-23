@@ -1,0 +1,52 @@
+.others {
+    background-color: black;
+    padding: 100px 0px;
+
+    .page {
+        padding: 0px 100px;
+        display: flex;
+        justify-content: space-around;
+
+        .text {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .title {
+                font-size: 50px;
+                font-weight: 600;
+            }
+
+            .desc {
+                margin-top: 40px;
+                font-size: 30px;
+                margin-left: 160px;
+            }
+        }
+
+        &.two,
+        &.four {
+            flex-direction: row-reverse;
+
+            .text {
+                .desc {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        &.four {
+            margin-left: 100px;
+        }
+    }
+
+    hr {
+        width: 100vw;
+        height: 8px;
+        margin: 50px 0px;
+        background-color: rgb(49, 47, 47);
+        border: none;
+    }
+}

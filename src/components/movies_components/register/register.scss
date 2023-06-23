@@ -1,0 +1,153 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 1) 100%),
+        url("https://assets.nflxext.com/ffe/siteui/vlv3/ac9aedf1-a687-4c5d-965c-2fc3eac84aea/ed2f162a-b9ef-43fd-8042-84978039a3ba/IN-en-20221206-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    .top {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+
+
+        .logo {
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+            color: white;
+            color: orangered;
+            font-size: 70px;
+            font-family: 'Bebas Neue', cursive;
+
+            &::first-letter {
+                font-size: 100px;
+            }
+
+        }
+
+
+
+        .wrapper {
+            display: flex;
+            justify-content: space-around;
+
+            .select {
+                color: white;
+                margin-right: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+                border: 1px solid white;
+                border-radius: 5px;
+                cursor: pointer;
+
+                select {
+                    margin: 0px 5px;
+                    border: none;
+                    background: transparent;
+                    color: white;
+                    cursor: pointer;
+                    font-size: 16px;
+
+                    option {
+                        background: transparent;
+                        color: black;
+                    }
+                }
+
+                select:focus {
+                    outline: 0;
+                }
+
+                .options {
+                    color: white;
+                }
+            }
+        }
+
+        .loginButton.movie {
+            margin-right: 40px;
+            padding: 8px;
+            border-radius: 5px;
+            background-color: orangered;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 20px;
+            border: none;
+        }
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 160px;
+        background: transparent;
+
+        color: white;
+
+        .movieh1 {
+            padding: 0px 400px;
+            font-size: 70px;
+            color: white;
+            font-family: 'Roboto Condensed', sans-serif;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-weight: 100;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 500;
+            display: flex;
+        }
+
+        .input {
+            border: none;
+            margin-top: 20px;
+            width: 60vw;
+            display: flex;
+            margin-bottom: 50px;
+
+            input {
+                border-radius: 5px 0px 0px 5px;
+                width: 70%;
+                padding: 20px;
+                border: none;
+                font-size: 20px;
+
+            }
+
+            .registerButton {
+                border-radius: 0px 5px 5px 0px;
+                padding: 16px;
+                width: 30%;
+                font-size: 30px;
+                background-color: red;
+                color: white;
+                border: none;
+
+            }
+        }
+    }
+}

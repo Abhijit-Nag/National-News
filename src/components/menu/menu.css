@@ -1,0 +1,12 @@
+.connectIcon {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}

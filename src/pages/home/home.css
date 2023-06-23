@@ -1,0 +1,49 @@
+.container.movies {
+    display: flex;
+    background-color: whitesmoke;
+    width: 100vw;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.left {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+}
+
+.articles {
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.articles::-webkit-scrollbar {
+    width: 2px;
+}
+
+.articles::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.articles::-webkit-scrollbar-thumb {
+    background-color: rgb(190, 185, 185);
+    height: 20px;
+}
+
+.right {
+    flex: 8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ad {
+    position: absolute;
+    right: 20px;
+
+}

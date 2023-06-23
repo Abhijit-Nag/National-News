@@ -1,0 +1,102 @@
+.navbar.movies {
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.8) 50%);
+
+    &.scroll {
+        background-color: #0b0b0b;
+    }
+
+    .container.movie {
+        padding: 0px 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 70px;
+        justify-content: space-between;
+
+        .left.movie {
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            span {
+                margin-right: 20px;
+                cursor: pointer;
+            }
+
+
+
+            .logo.movie {
+                left: 0;
+                margin-right: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 50px;
+                color: white;
+                color: orangered;
+                font-size: 70px;
+                font-family: 'Bebas Neue', cursive;
+
+                &::first-letter {
+                    font-size: 100px;
+                }
+
+            }
+        }
+
+
+        .right.movie {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-right: 80px;
+            position: absolute;
+            right: 20px;
+
+            .icon.movie {
+                margin: 0px 15px;
+                cursor: pointer;
+            }
+
+            img {
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+                object-fit: cover;
+                cursor: pointer;
+            }
+
+            .profile {
+                .options {
+                    transition: all 1s ease;
+                    display: none;
+                    background-color: #0b0b0b;
+                    border-radius: 5px;
+                }
+
+                span {
+                    padding: 10px;
+                    cursor: pointer;
+                }
+
+                &:hover {
+                    .options.movie {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        position: absolute;
+                    }
+                }
+            }
+        }
+
+    }
+}
