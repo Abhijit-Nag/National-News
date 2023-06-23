@@ -39,7 +39,7 @@ export const signInWithGoogle = async () => {
         });
         console.log(response);
         window.localStorage.setItem('name', name);
-        window.location.reload("/");
+        // window.location.reload("/");
 
     }).catch(error => { console.log(`Firebase_Google_SignIn_Frontend_Error : ${error}`) });
 };
