@@ -2,7 +2,7 @@ import { Add, PlayArrow, ThumbDownAltOutlined, ThumbUpAltOutlined } from '@mater
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import "./listItem.scss"
-import kgf from "../../../assets/kgf.mp4"
+// import kgf from "../../../assets/kgf.mp4"
 import { img_300, unavailable } from '../../../config/config';
 import { Badge } from '@material-ui/core';
 
@@ -20,7 +20,7 @@ const ListItem = ({ index, data }) => {
                 <Badge className='badge' badgeContent={data.vote_average.toFixed(2)} color={data.vote_average > 6 ? 'primary' : 'secondary'} />
                 {hovered && (
                     <>
-                        <video src={kgf} autoPlay={true} loop />
+                        {/* <video src={kgf} autoPlay={true} loop /> */}
                         <div className="info">
                             <div className="icons">
                                 <PlayArrow className='icon' />

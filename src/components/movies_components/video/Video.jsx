@@ -1,9 +1,10 @@
 import { ArrowBackOutlined } from '@material-ui/icons'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import kgf from "../../../assets/kgf.mp4"
+// import kgf from "../../../assets/kgf.mp4"
 
 const Video = () => {
+  const kgf="";
   return (
     <div style={{ height: '100vh', backgroundColor: 'black' }}>
 
